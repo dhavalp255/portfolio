@@ -1,0 +1,26 @@
+#illustration {
+  background-color: var(--bg);
+  height: 100%;
+  display: flex;
+  padding: 100px 100px;
+  flex-direction: column;
+}
+.illi__svgPosterGirl,
+.illi__musicGirl,
+.illi__blueShirtGirl,
+.illi__settingGirl,
+.illi__welcomeGirl {
+  height: 250px;
+  margin: 10px;
+}
+
+.l_1 {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+}
+.l_2{
+    display: flex;
+    justify-content: space-evenly;
+
+}

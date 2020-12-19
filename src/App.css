@@ -1,0 +1,19 @@
+html {
+  --bg: #cac3e7;
+  --fc: #05380c;
+
+  scroll-behavior: smooth;
+}
+html[data-theme="dark"] {
+  --fc: #09a2c8;
+  --bg: #08100c;
+  
+  
+  --fc: #3f52a0;
+  --bg:#f9d3e0;
+
+  /* --fc: #0a0613;
+  --bg: #e4e1f1; */
+}
+.app {
+}

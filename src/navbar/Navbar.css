@@ -1,0 +1,71 @@
+.navbar {
+  position: sticky;
+  top: 0px;
+  background-color: var(--bg);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 40px;
+  height: 55px;
+  text-align: center;
+  z-index: 100;
+  transition: 1s all ease;
+}
+
+.navbar__svg {
+  height: 50px;
+}
+.navbar__ul {
+  display: flex;
+  padding: 10px 20px 0 0;
+}
+
+.navbar__ul > li {
+  list-style: none;
+  padding: 0 30px;
+}
+.navbar__ul > li > a {
+  text-decoration: none;
+  color: var(--fc);
+  font-size: 1.7rem;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.navbar__top {
+  height: 7vh;
+  width: 7vh;
+  border: 1px solid var(--fc);
+  position: fixed;
+  bottom: 3vh;
+  right: 5vh;
+  border-radius: 50%;
+  transition: 0.5s all ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+.navbar__top > a {
+  text-decoration: none;
+  color: var(--fc);
+  font-size: 1.3rem;
+  opacity: 1;
+  font-weight: 500;
+}
+
+.navbar__btn {
+  height: 20px;
+  width: 40px;
+  margin: 20px;
+  cursor: pointer;
+
+  border-radius: 999px;
+  padding: 2px;
+}
+.navbar__btnLeft {
+  height: 16px;
+  width: 16px;
+  border-radius: 999px;
+  transform: translateX(18px);
+}

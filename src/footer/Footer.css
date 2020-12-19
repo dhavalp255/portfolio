@@ -1,0 +1,13 @@
+.footer {
+  height: 2rem;
+  background-color: var(--bg);
+  color: var(--fc);
+  border-top: .5px solid var(--fc);
+ 
+}
+.footer > p {
+    margin: 0;
+    text-align: center;
+    padding: 2px;
+    opacity: .9;
+}

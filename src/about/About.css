@@ -1,0 +1,25 @@
+#about {
+  background: var(--bg);
+  color: var(--fc);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+  padding: 0 170px;
+  overflow: hidden;
+}
+.about__svg {
+  height: 75vh;
+}
+.about__details {
+  width: 40vw;
+  transform: translateX(100vw);
+  transition: all 1s ease;
+}
+
+.about__details > h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 35px 10px;
+}
